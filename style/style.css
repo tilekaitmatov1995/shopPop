@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url("http://oboi-dlja-stola.ru/file/14915/760x0/16:9/rosso-ferrari-california.jpg") no-repeat;
+    background-size: cover;
+}
+.item{
+    height: 100px;
+    width: 200px;
+    background: firebrick;
+    color: black;
+    text-align: center;
+}
+
